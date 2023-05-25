@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">vit pune</h2>
+            <div class="toggle"></div>
+
+        </header>
+        
+        <video src="video/design.mp4" muted loop autoplay></video>
+        <div class="overplay"></div>
+        <div class="text">
+            <h2>vit projects</h2>
+        
+            <p> VIT Pune (Vishwakarma Institute of Technology, Pune) is a well-known engineering college in India. The college offers various projects to its students as part of their academic curriculum, as well as for research and development purposes.
+            </p>
+            <a href="/login" target="_blank">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/sahilsomnath.mandhare" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/sahil_m2022/?hl=en" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+          
+    </section>
+    
+           <div class="menu">
+               <ul>
+                   <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                   <!-- <li><a href="#"target="_blank">#</a></li>
+                   <li><a href="#"target="_blank">#</a></li> -->
+                   <li><a href="/about">About Us</a></li>
+                   <li><a href="/contact"target="_blank">Contact</a></li>
+               </ul>
+           </div>
+           
+           
+           <script>
+               const menuToggle = document.querySelector('.toggle')
+               const showcase = document.querySelector('.showcase')
+               menuToggle.addEventListener('click',()=>{
+                   menuToggle.classList.toggle('active')
+                   showcase.classList.toggle('active')
+               }) 
+           </script>
+    
+
+    </body>
+</html>

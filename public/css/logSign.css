@@ -1,0 +1,105 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.login-container, .signup-container {
+	width: 300px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.overplay{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;width: 100%;
+    
+    mix-blend-mode: overlay;
+
+}
+
+button {
+	background-color:#6739B7;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #6739B7;
+}
+
+.signup-container {
+	margin-top: 50px;
+}
+.popup{
+	width: 400px;
+	background: #fff;
+	position: absolute;
+	border-radius: 6px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	 text-align: center;
+	 padding: 0 30px 30px;
+	 color: #333;
+	 visibility: hidden;
+	 transition: tranform 0.4s, top 0.4s;
+}
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+	width: 100px;
+	margin-top:-50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+}
+.popup button{
+	width:100% ;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #6fd694;
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2) ;
+}

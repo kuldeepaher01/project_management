@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.header a.tit{
+  margin-left: 3px;
+  font-size: 20px;
+  
+}
+header {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6739b7;
+
+  padding: 0px;
+}
+
+
+.main-heading {
+  max-width: 920px;
+  text-align: center;
+  margin: 20px auto 20px;
+}
+
+
+.main-heading h1 {
+  font-size: 50px;
+}
+
+
+.main-heading p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color:  #6739b7;
+  padding: 10px 20px;
+}
+
+
+.header img {
+  width: 50px;
+}
+
+
+.header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+
+
+.book-button{
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+
+
+
+.header-right {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: auto;
+}
+
+select {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  background-color:#6739b7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:disabled {
+  background-color:#999999;
+  
+  cursor: not-allowed;
+}

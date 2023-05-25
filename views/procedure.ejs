@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Add-data</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+	
+    <!-- Bootstrap CSS -->
+    
+    <!-- Style -->
+    
+    <link rel="stylesheet" href="css/addData.css"/>
+</head>
+<body>
+	<div class="page-content">
+		<div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="/updateProcedure" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<p class="step-icon"><span>01</span></p>
+			            	<span class="step-text">Peronal Infomation</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Peronal Infomation</h3>
+									<p>Please enter your infomation and proceed to the next step so we can build your project information.  </p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>Full Name</legend>
+											<input type="text" class="form-control" id="Full_Name" name="Full_Name" placeholder="Full_Name" required>
+										</fieldset>
+									</div>
+									<!-- <div class="form-holder">
+										<fieldset>
+											<legend>Last Name</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required>
+										</fieldset>
+									</div> -->
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Your Email</legend>
+											<input type="text" name="your_email" id="your_email"  class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="example@email.com" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Phone Number</legend>
+											<input type="text" class="form-control" id="phone" name="phone"  placeholder="+1 888-999-7777" required>
+										</fieldset>
+									</div>
+								</div>
+								<!-- <div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<label class="special-label">Group Information:</label>
+										<select name="div" id="div">
+											<option value="DIV" disabled selected>DIV</option>
+											<option value="Desh-A" >Desh-A</option>
+											<option value="Desh-B">Desh-B</option>
+											<option value="Desh-C">Desh-C</option>
+											<option value="Desh-D">Desh-D</option>
+											<option value="AIDS-A">AIDS-A</option>
+											<option value="AIDS-B">AIDS-B</option>
+											<option value="AIDS-C">AIDS-C</option>
+											<option value="AIDS-D">AIDS-D</option>
+											<option value="CS-A">CS-A</option>
+											<option value="CS-B">CS-B</option>
+											<option value="CS-C">CS-C</option>
+											<option value="CS-E">CS-E</option>
+											<option value="CHE-A">CHE-A</option>
+											<option value="CHE-B">CHE-B</option>
+											<option value="E&TC-A">E&TC-A</option>
+											<option value="E&TC-B">E&TC-B</option>
+											<option value="E&TC-C">E&TC-C</option>
+											<option value="E&TC-E">E&TC-E</option>
+
+										</select>
+										<select name="batch" id="batch">
+											<option value="batch" disabled selected>BATCH</option>
+											<option value="batch-1">batch-1</option>
+											<option value="batch-2">batch-2</option>
+											<option value="batch-3">batch-3</option>
+											<option value="batch-4">batch-4</option>
+										</select>
+										<select name="groupNo" id="groupNo">
+											<option value="groupNo" disabled selected>GROUP_NO</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</div>
+								</div> -->
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+
+										<input type="text" class="form-control input-border" id="PRN_NO" name="PRN_NO"  placeholder="PRN_NO" required>
+									</div>
+								</div>
+							</div>
+			            </section>
+						SECTION 2
+			            <h2>
+			            	<p class="step-icon"><span>02</span></p>
+			            	<span class="step-text">Project Infomation</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Project Infomation</h3>
+									<p>Please enter your infomation and proceed to the next step so we can build your project information.</p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-1">
+										<select name="course_Name" id="course_Name" placeholder="COURSE_NAME">
+											<option value="course_Name" disabled selected>COURSE_NAME</option>
+											<option value="rmae">RMAE</option>
+											<option value="Enginerring Mathamatics">Enginerring Mathamatics</option>
+											<option value="System Enginerring">System Enginerring</option>
+											<option value="PSAP">PSAP</option>
+											<option value="Android App Dev">Android App Dev</option>
+											<option value="MAR">MAR</option>
+											<option value="Advanced Data Structure">Advanced Data Structure</option>
+											<option value="Data Communication">Data Communication</option>
+											<option value="Digital System">Digital System</option>
+											<option value="Object Oriented Programming(oops)">Object Oriented Programming(oops)</option>
+											<option value="DataBase Managment System">DataBase Managment System</option>
+											<option value="Data Science">Data Science</option>
+											<option value="Internet Of Things(IOT)">Internet Of Things(IOT)</option>
+											
+										</select>
+										<!-- <input type="text" name="course_Name" id="course_Name" placeholder="COURSE_NAME" class="form-control" required> -->
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-1">
+										<input type="text" name="project_Title" id="project_Title" placeholder="project_Title" class="form-control" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-1">
+										<input type="text" name="course_Name" id="Project_Guid_Name" placeholder="Project_Guid_Name" class="form-control" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-1">
+										<input type="text" name="course_Name" id="Technolgy_Used" placeholder="Technolgy_Used" class="form-control" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-1">
+										<input type="text" name="course_Name"  id="Project_Description" placeholder="Project_Description" class="form-control" required>
+									</div>
+								</div>
+								
+							</div>
+			            </section>
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<p class="step-icon"><span>03</span></p>
+			            	<span class="step-text">Group Information</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Group Member Information</h3>
+									<p>Please enter your infomation and proceed to the next step so we can build your accounts.</p>
+								</div>
+								<div class="form-row form-row-total">
+									<div class="form-holder form-holder-2 form-holder-3">										
+										<label class="bank-images bank-5-label" for="bank-5">
+											<input type="text" name="MEMBER_PRN1" placeholder="1 MEMBER_PRN" class="form-control" required>
+										</label>
+										
+										<label class="bank-images bank-6-label" for="bank-6">
+											<input type="text" name="NAME" id="NAME1" placeholder="NAME" class="form-control" required>
+										</label>
+									</div>
+								</div>
+								<div class="form-row form-row-total">
+									<div class="form-holder form-holder-2 form-holder-3">										
+										<label class="bank-images bank-5-label" for="bank-5">
+											<input type="text" name="MEMBER_PRN1"  placeholder="2 MEMEBER_PRN" class="form-control" required>
+										</label>
+										
+										<label class="bank-images bank-6-label" for="bank-6">
+											<input type="text" name="NAME" id="NAME2" placeholder="NAME" class="form-control" required>
+										</label>
+									</div>
+								</div>
+								<div class="form-row form-row-total">
+									<div class="form-holder form-holder-2 form-holder-3">										
+										<label class="bank-images bank-5-label" for="bank-5">
+											<input type="text" name="MEMBER_PRN1"  placeholder="3 MEMBER_PRN" class="form-control" required>
+										</label>
+										
+										<label class="bank-images bank-6-label" for="bank-6">
+											<input type="text" name="NAME" id="NAME3" placeholder="NAME" class="form-control" required>
+										</label>
+									</div>
+								</div>
+								<div class="form-row form-row-total">
+									<div class="form-holder form-holder-2 form-holder-3">										
+										<label class="bank-images bank-5-label" for="bank-5">
+											<input type="text" name="MEMBER_PRN1"  placeholder="4 MEMEBER_PRN" class="form-control" required>
+										</label>
+										
+										<label class="bank-images bank-6-label" for="bank-6">
+											<input type="text" name="NAME" id="NAME4" placeholder="NAME" class="form-control" required>
+										</label>
+									</div>
+								</div>
+								<div class="form-row form-row-total">
+									<div class="form-holder form-holder-2 form-holder-3">										
+										<label class="bank-images bank-5-label" for="bank-5">
+											<input type="text" name="MEMBER_PRN1" placeholder="5 MEMEBER_PRN" class="form-control">
+										</label>
+										
+										<label class="bank-images bank-6-label" for="bank-6">
+											<input type="text" name="NAME" id="NAME5" placeholder="NAME" class="form-control" >
+										</label>
+										
+									</div>
+									
+								</div>
+								<button type="submit" >Submit</button>
+							</div>
+			            </section>
+		        	</div>
+					
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.2.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/addData.js"></script>
+</body>
+</html>

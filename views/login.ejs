@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="css/logSign.css">
+</head>
+<body>
+
+    
+	<div class="login-container">
+		
+		<h1>Login</h1>
+		<form method="post" action="/login">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+			<button type="submit" onclick="openPopup()">Log In</button>
+		</form>
+		<p>Don't have an account? <a href="/signup">Sign up here</a></p>
+		<div class="popup" id="popup">
+		<img src="img/tick.png" alt="tick.png">
+		<h2>Thank You!</h2>
+		<p>You Login successfully. Welcome Back!</p>
+		<button type="button" onclick="closePopup()">OK</button>
+		</div>
+		
+	</div>
+	<script >
+		 let popup=document.getElementById("popup");
+		function openPopup(){
+			popup.classList.add("open-popup");
+		}
+		function closePopup(){
+			popup.classList.remove("open-popup");
+		}		
+	</script>
+</body>
+</html>
